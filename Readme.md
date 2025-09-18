@@ -2,7 +2,8 @@
 
 ## Groupe 
 
-- vos noms 
+Valentin Mermoud
+Loïc Marmy
 
 ## But 
 
