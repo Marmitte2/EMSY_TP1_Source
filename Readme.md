@@ -2,8 +2,7 @@
 
 ## Groupe 
 
-Valentin Mermoud
-Loïc Marmy
+Valentin Mermoud / Loïc Marmy
 
 ## But 
 
