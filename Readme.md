@@ -49,8 +49,8 @@ Cette manipulation a pour but d'installer une distribution linux [Sparky Linux](
 
 Lancement du live CD : 
 
-[Placer votre capture d'écran]() 
-
+<img width="813" height="662" alt="image" src="https://github.com/user-attachments/assets/7d18aea7-7ad6-42b2-b9d4-471165c5474e" />
+ 
 Shell Linux : 
 
 [Placer votre capture d'écran]() 
