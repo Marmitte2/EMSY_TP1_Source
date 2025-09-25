@@ -120,6 +120,12 @@ Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> v
 
 > <img width="793" height="646" alt="image" src="https://github.com/user-attachments/assets/808afafa-0065-4503-b550-01845841c13e" />
 
+Q13. Quelle est la taille du disque minimum recommandé pour installer la distribution sparky ?
+
+> 512MB
+
+Q14. A quoi sert la partition swap ? Est ce que ce principe existe sur les OS Microsoft Windows ?
+
 
 ## Tips 
 
