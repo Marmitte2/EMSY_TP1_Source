@@ -118,7 +118,7 @@ Q11. Que signifie **sda** ?
 
 Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> voir résultat point 13.
 
-> votre réponse ?!
+> <img width="793" height="646" alt="image" src="https://github.com/user-attachments/assets/808afafa-0065-4503-b550-01845841c13e" />
 
 
 ## Tips 
