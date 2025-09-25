@@ -71,51 +71,50 @@ Q3. disposition du le clavier français ?
 
 H. Déplacez-vous à la **racine du système** en utilisant la commande suivante : `cd` 
 
-> vore commande ?!
+> cd /
 
 I. Affichez le contenu de la racine avec la commande : `ls –l`	
 
-![Placer votre capture d'écran]() 
+<img width="803" height="656" alt="image" src="https://github.com/user-attachments/assets/aecdec4a-8416-4f9a-b5f1-21c2f595f085" />
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 
-> votre réponse ?!
+> le -l est pour avoir un format long et detaillé d'une commande 
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
 
-[Placer votre capture d'écran]()
-
-> votre réponse ?!
+<img width="799" height="654" alt="image" src="https://github.com/user-attachments/assets/c960c031-f0d8-4d5d-923e-6e1357b0a043" />
 
 J. Créez un répertoire de travail nommé « EMSY_VosInitiales» dans quel dossier racine allez-vous le placer (justifiez votre réponse) et quelle commande allez-vous utiliser. 
 
-> votre commande ?! 
+> dans le repertoire home/live/ car c'est le repertoire utilisateur.
+avec la commande mkdir
 
 Q7. Si vous créez un répertoire de travail (pour éditer/sauvegarder des fichiers), dans quelle **répertoire racine** vous vous placez ? 
 
-> votre réponse ?!
+> dans le home/live/ car c'est le repertoire utilisateur
 
 
 K. Dans ce répertoire, créez un fichier texte que vous nommerez `TESTSLO_XXX_XXX` et éditez celui en écrivant un texte, exemple : "TP linux by XXX et XXX".
 	Utiliser la commande `vi`
 
-> votre commande ?! 
+> vi TESTSLO_VMD_LMY
 
 Q9. dans le répertoire `/home`, pouvez-vous éditez un fichier uniquement avec la commande `vi` 
 
-> votre réponse ?!
+> Oui on peut ouvrir l'éditeur et donc éditer un fichier
 
 Q10. Si vous éteignez la machine virtuelle et que vous la rallumez, est-ce que le répertoire créé ci-dessus existe toujours (justifiez votre réponse) ? 
 
-> votre réponse ?!
+> Non le répertoire n'existe plus 
 
 L. Tapez la commande `ls -l /dev/sda` 
 
-![Placer votre capture d'écran]() 
+<img width="797" height="656" alt="image" src="https://github.com/user-attachments/assets/864f816d-16b6-4b88-af31-8839c59b4c58" />
 
 Q11. Que signifie **sda** ? 
 
-> votre réponse ?!
+> C'est le premier disque dur reconnu par linux
 
 Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> voir résultat point 13.
 
