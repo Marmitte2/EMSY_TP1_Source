@@ -126,6 +126,19 @@ Q13. Quelle est la taille du disque minimum recommandé pour installer la distri
 
 Q14. A quoi sert la partition swap ? Est ce que ce principe existe sur les OS Microsoft Windows ?
 
+> C'est une RAM additionnelle, non windows n'utilise pas des partion swap cependant windows utilise des fichiers d'échange dans le disque C quand la RAM est saturée
+
+Q.15 Quel format pourriez-vous utiliser pour la 3ème partition afin qu'elle soit également accessible depuis un OS Microsoft ?
+
+> W95 FA32
+
+Q.16 Durant l'installation, on vous demande deux nom d'utilisateur. A quoi correspondent-ils?
+
+>
+N. Après l'installation de linux, prenez une capture d'écran du démarrage de votre système (grub)
+> <img width="639" height="532" alt="image" src="https://github.com/user-attachments/assets/173cb682-79fd-4d12-a801-0eab29b50b7f" />
+O. Trouvez la ou les lignes de commande permettant de changer le clavier(clavier suisse romand trouvable sous <<german (switzerland)) et procédez à la configuration du clavier.
+>
 
 ## Tips 
 
