@@ -136,10 +136,51 @@ Q.16 Durant l'installation, on vous demande deux nom d'utilisateur. A quoi corre
 
 >
 N. Après l'installation de linux, prenez une capture d'écran du démarrage de votre système (grub)
-> <img width="639" height="532" alt="image" src="https://github.com/user-attachments/assets/173cb682-79fd-4d12-a801-0eab29b50b7f" />
-O. Trouvez la ou les lignes de commande permettant de changer le clavier(clavier suisse romand trouvable sous <<german (switzerland)) et procédez à la configuration du clavier.
->
 
+> <img width="639" height="532" alt="image" src="https://github.com/user-attachments/assets/173cb682-79fd-4d12-a801-0eab29b50b7f" />
+
+O. Trouvez la ou les lignes de commande permettant de changer le clavier(clavier suisse romand trouvable sous <<german (switzerland)) et procédez à la configuration du clavier.
+
+> sudo nano /etc/default/keyboard --> XKBLAYOUT="ch"XKBVARIANT="de"
+
+P. Testez si l’application « nano » est installée sur votre machine, tapez la commande : 
+nano --version
+Q17. À quoi sert « nano » ?
+
+> nano est un éditeur de texte dans le ternimal qu'on peut utiliser pour éditer facilement des fichiers de configuration
+
+Q. Testez si l’application « git » est installée sur votre distribution, si ce n’est pas le cas installez
+un client git.
+Q18. Comment savoir si « git » est déjà installé ? 
+
+> il faut taper la commande git --version et si on ne trouve rien c'est que git n'est pas installée
+
+Q19. Quelle(s) commande(s) utilisez-vous pour l’installer ? 
+
+> sudo apt install gity
+
+Q20. Que veut dire « apt » ? 
+
+> apt = advanced package tool qui est un outil de gestion de paquet
+
+Q21. Est-ce que cette commande peut être utilisée sur toutes les distributions Linux ?
+
+> Elle n'est pas utilisable sur toutes les plateformes parce que les différentes distribution Linux ont étées faites avec des philosophies différentes
+
+R. Créez un sous-répertoire « EMSY_TP1_XXX-YYY » dans le répertoire de votre utilisateur.
+Attention : Ici on veut que l’utilisateur (vous) ait les droits de lecture, d’écriture et d’exécution.
+Q22. Quel est le répertoire utilisateur ?
+
+> home/"repertoire utilisateur"
+
+Q23. Quelles sont les commandes que vous allez utiliser ?
+
+> cd home/lmy --> mkdir EMSY_TP1_VMD-LMY
+
+S. Dans ce répertoire, tapez la commande : 
+git clone https://github.com/votreDepot/EMSY_TP1_Source
+Il faut au préalable que vous ayez mis en place à cette adresse un fork du dépôt fourni.
+Q24. Qu’observez-vous dans votre répertoire ?
 ## Tips 
 
 > $$Tips^1$$ : sortir de la VM -> appuyer simultanément sur `Ctrl` et `Alt` 
