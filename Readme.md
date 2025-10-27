@@ -176,7 +176,7 @@ Q22. Quel est le répertoire utilisateur ?
 Q23. Quelles sont les commandes que vous allez utiliser ?
 
 > cd home/lmy --> mkdir EMSY_TP1_VMD-LMY
-
+ 
 S. Dans ce répertoire, tapez la commande : 
 git clone https://github.com/votreDepot/EMSY_TP1_Source
 Il faut au préalable que vous ayez mis en place à cette adresse un fork du dépôt fourni.
