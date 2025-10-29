@@ -98,7 +98,7 @@ Q7. Si vous créez un répertoire de travail (pour éditer/sauvegarder des fichi
 K. Dans ce répertoire, créez un fichier texte que vous nommerez `TESTSLO_XXX_XXX` et éditez celui en écrivant un texte, exemple : "TP linux by XXX et XXX".
 	Utiliser la commande `vi`
 
-> vi TESTSLO_VMD_LMY
+> la commande à taper est vi TESTSLO_VMD_LMY
 
 Q9. dans le répertoire `/home`, pouvez-vous éditez un fichier uniquement avec la commande `vi` 
 
@@ -134,7 +134,8 @@ Q.15 Quel format pourriez-vous utiliser pour la 3ème partition afin qu'elle soi
 
 Q.16 Durant l'installation, on vous demande deux nom d'utilisateur. A quoi correspondent-ils?
 
->
+> le 1er est le nom d'utilisateur que l'on va utiliser au quotidien et le 2ème est le nom d'utilisateur pour le compte administrateur
+
 N. Après l'installation de linux, prenez une capture d'écran du démarrage de votre système (grub)
 
 > <img width="639" height="532" alt="image" src="https://github.com/user-attachments/assets/173cb682-79fd-4d12-a801-0eab29b50b7f" />
@@ -147,7 +148,7 @@ P. Testez si l’application « nano » est installée sur votre machine, tapez 
 nano --version
 Q17. À quoi sert « nano » ?
 
-> nano est un éditeur de texte dans le ternimal qu'on peut utiliser pour éditer facilement des fichiers de configuration
+> nano est un éditeur de texte dans le ternimal qu'on peut utiliser pour éditer facilement des fichiers de configuration et oui il est installé sur notre machine
 
 Q. Testez si l’application « git » est installée sur votre distribution, si ce n’est pas le cas installez
 un client git.
@@ -157,7 +158,7 @@ Q18. Comment savoir si « git » est déjà installé ?
 
 Q19. Quelle(s) commande(s) utilisez-vous pour l’installer ? 
 
-> sudo apt install gity
+> sudo apt install git
 
 Q20. Que veut dire « apt » ? 
 
@@ -188,16 +189,28 @@ T. Editez le fichier source .c avec l’éditeur de texte « nano ».
 Réalisez un petit programme en C (par exemple de type « Hello world »).
 
 U. Vérifiez si le compilateur « gcc » est bien installé.
+
+> Pour savoir il faut taper "gcc --version" / oui il est installé
+
 Notez la version du logiciel.
+
+<img width="639" height="121" alt="image" src="https://github.com/user-attachments/assets/f738fac8-27e3-484c-aa1c-3e30531a87a2" />
+
 Tapez les commandes suivantes :
 gcc -Wall -o fichier.o -c fichier.c 
 gcc -o fichier fichier.o 
 Remarque : « fichier » est à remplacer par le nom de votre choix
 Q25. Quels sont les fichiers qui ont été générés ? 
 
+> Un fichier .o avec le nom de mon fichier.c a été crée
+
+<img width="536" height="119" alt="image" src="https://github.com/user-attachments/assets/2862bbab-1245-41f3-aca1-330cf2a9957c" />
+
 V. Entrez la commande suivante :
 ./fichier
 Q26. Que se passe-t-il ?
+
+> Mon code s'exécute et affiche hello world dans la VM
 
 ## Tips 
 
