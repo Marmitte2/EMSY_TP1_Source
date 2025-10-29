@@ -187,6 +187,17 @@ Q24. Qu’observez-vous dans votre répertoire ?
 T. Editez le fichier source .c avec l’éditeur de texte « nano ».
 Réalisez un petit programme en C (par exemple de type « Hello world »).
 
+U. Vérifiez si le compilateur « gcc » est bien installé.
+Notez la version du logiciel.
+Tapez les commandes suivantes :
+gcc -Wall -o fichier.o -c fichier.c 
+gcc -o fichier fichier.o 
+Remarque : « fichier » est à remplacer par le nom de votre choix
+Q25. Quels sont les fichiers qui ont été générés ? 
+
+V. Entrez la commande suivante :
+./fichier
+Q26. Que se passe-t-il ?
 
 ## Tips 
 
